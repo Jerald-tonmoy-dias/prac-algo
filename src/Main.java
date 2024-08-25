@@ -12,6 +12,10 @@ public class Main {
      numbers.insert(66);
      numbers.insert(44);
      numbers.insert(87);
+        numbers.print();
+        System.out.println("before-----");
+     numbers.removeAt(2);
+        System.out.println("after-------");
      numbers.print();
     }
 }

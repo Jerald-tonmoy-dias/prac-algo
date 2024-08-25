@@ -32,5 +32,16 @@ public class Array {
         }
     }
 
+//    remove method
+    public void removeAt(int index) {
+//        validate the index
+        if(index < 0 || index > count)
+            throw new IllegalArgumentException();
+
+//        shift the items to the left to fill the hole
+        for (int i = index; i < count; i++)
+            items[i] = items[i+1];
+        count--;
+    }
 
 }
