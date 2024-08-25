@@ -1,25 +1,16 @@
-
-
+import java.util.ArrayList;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-     Array numbers = new Array(3);
-     numbers.insert(3);
-     numbers.insert(5);
-     numbers.insert(1);
-     numbers.insert(66);
-     numbers.insert(44);
-     numbers.insert(87);
-     numbers.print();
-        System.out.println("before remove-----");
-     numbers.removeAt(2);
-        System.out.println("after remove-------");
 
-
-        System.out.println("after remove-------");
-        System.out.println( numbers.indexOf(87));
-     numbers.print();
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.remove(0);
+        list.indexOf(20);
+        System.out.println(list);
     }
 }
