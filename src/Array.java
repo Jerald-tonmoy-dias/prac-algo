@@ -44,4 +44,15 @@ public class Array {
         count--;
     }
 
+    //    index of method
+//   run time complexity  0(n) because it's depends on n
+    public int indexOf(int item) {
+        for (int i = 0; i < count; i++)
+          if(items[i] == item)
+              return i;
+        return -1;
+    }
+
+
+
 }

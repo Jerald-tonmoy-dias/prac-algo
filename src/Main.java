@@ -12,10 +12,14 @@ public class Main {
      numbers.insert(66);
      numbers.insert(44);
      numbers.insert(87);
-        numbers.print();
-        System.out.println("before-----");
+     numbers.print();
+        System.out.println("before remove-----");
      numbers.removeAt(2);
-        System.out.println("after-------");
+        System.out.println("after remove-------");
+
+
+        System.out.println("after remove-------");
+        System.out.println( numbers.indexOf(87));
      numbers.print();
     }
 }
